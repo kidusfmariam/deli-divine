@@ -50,7 +50,7 @@
     }
     .hero-text{
         width: 40vw;
-        margin-top: -15vh;
+        margin-top: -20vh;
     }
     .hero-text p{
         font-size: 4vw;
@@ -63,8 +63,13 @@
     }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 395px){
     .hero-title h1{
         margin-right: 30vw;
     }
+}
+
+
+.subpage-wrapper-2{
+    width: 100vw;
 }

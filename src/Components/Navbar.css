@@ -43,9 +43,6 @@
     cursor: pointer;
 
 }
-.menu-item h1{
-    color: #000;
-}
 .menu-img{
     position: absolute;
     right: 10%;
@@ -59,7 +56,8 @@
 .menu-title{
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 300;
-    font-size: 4vw;
+    font-size: clamp(2.5rem, 4vw, 20rem);
+    color: #000;
 }
 .menu-item-1:hover .menu-img-1{
     opacity: 1;
@@ -80,7 +78,7 @@
         margin: 4rem 0;
     }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 450px){
     .navbar-container{
         padding: 2rem 2rem ;
     }

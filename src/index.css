@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+*::selection{
+  background-color: #A3A1A1;
+  color: #000;
+}
 body{
   background: #121212;
 }
@@ -12,8 +16,27 @@ body::-webkit-scrollbar{
 h1, h2, h3, h4, h5, h6{
   font-family: 'Julius Sans One', sans-serif;
   color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 p, span, a{
   font-family: 'Metal', cursive;
   color: #A3A1A1;
+  text-decoration: none;
+}
+button{
+  background: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 0.2rem 1rem;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Metal', cursive;
+  font-size: clamp(1.2rem, 1.2vw, 3rem);
+  cursor: pointer;
+}
+button:hover{
+  color: #A3A1A1;
+  border-color: #A3A1A1;
+  transition: .3s all ease-in-out;
 }

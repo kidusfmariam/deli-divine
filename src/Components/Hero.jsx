@@ -22,8 +22,8 @@ const Hero = () => {
         </p>
       </motion.div>
       <motion.div 
-      initial={{width: "200px", height: "200px", top: "20vh", right: "50vw", transform: "translate(50%, 50%)", pointerEvents: 'none'}}
-      animate={{width: "60vw", height: "80%", top: "79vh", right: 0, transform: "translate(0, 0)", pointerEvents: 'all'}}
+      initial={{width: "100%", height: "100%", top: "0", right: "0", pointerEvents: 'none'}}
+      animate={{width: "60vw", height: "80%", top: "79vh", right: 0, pointerEvents: 'all'}}
       transition={{duration: 1.6, delay: 0.8}}
       className='hero-img'>
         <img src="/Assests/Landing Page/Img-1.jpg" alt="food on a plate" />
