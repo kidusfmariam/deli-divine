@@ -1,0 +1,87 @@
+.navbar-container{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    z-index: 5;
+}
+.nav-img-1{
+    width: 3.5rem;
+    height: 2rem;
+}
+.nav-img-2{
+    width: 2.4rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+.nav-menu{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F1DB;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 10% 0 10%;
+}
+.close-btn{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    cursor: pointer;
+}
+.menu-item{
+    margin-bottom: 5%;
+    border-bottom: 1px solid #000;
+    padding-bottom: .5rem;
+    width: 50%;
+    cursor: pointer;
+
+}
+.menu-item h1{
+    color: #000;
+}
+.menu-img{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 25%;
+    height: 75%;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+}
+.menu-title{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+    font-size: 4vw;
+}
+.menu-item-1:hover .menu-img-1{
+    opacity: 1;
+}
+.menu-item-2:hover .menu-img-2{
+    opacity: 1;
+}
+.menu-item-3:hover .menu-img-3{
+    opacity: 1;
+}
+.menu-item-4:hover .menu-img-4{
+    opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+    .menu-item{
+        width: 100%;
+        margin: 4rem 0;
+    }
+}
+@media screen and (max-width: 380px){
+    .navbar-container{
+        padding: 2rem 2rem ;
+    }
+}
