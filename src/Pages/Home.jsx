@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '../Components/Hero'
-import SubPageOne from '../Components/SubPageOne'
+import Hero from '../Containers/Hero/Hero'
+import SubPageOne from '../Containers/Sub-page/SubPageOne'
 const Home = () => {
   return (
     <>
