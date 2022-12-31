@@ -4,7 +4,8 @@ import './Hero.css'
 const Hero = () => {
   return (
     <>
-    <div className='hero-container'>
+    <div 
+      className='hero-container'>
       <motion.div 
       initial={{opacity: 0}}
       animate={{opacity: 1}}

@@ -1,0 +1,40 @@
+.chefs-wrapper{
+    padding-top: 4vh;
+    padding-bottom: 8vh;
+}
+.chefs-wrapper hr{
+    margin: 5vh auto;
+}
+.chefs-list{
+    width: 90%;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(3rem, 7vw, 10rem);
+    
+}
+.chef{
+    width: clamp(15rem, 20vw, 30rem);
+    height: 70vh;
+}
+.chef img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.chef p{
+    font-size: clamp(1.3rem, 1.5vw, 7rem);
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    .chefs-list{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .chef{
+        width: 70%;
+        height: 30vh;
+    }
+}

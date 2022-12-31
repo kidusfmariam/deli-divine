@@ -1,0 +1,23 @@
+.moto-wrapper{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-page-h1{
+    font-size: clamp(2.3rem, 5vw, 10rem);
+    padding: 0 .6rem;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.hr{
+    width: 45vw;
+    margin: 2vh auto;
+}
+.moto-wrapper p{
+    font-size: clamp(1rem, 1.2vw, 3rem);
+    text-align: center;
+    width: 80%;
+    margin: 2vh auto;
+}

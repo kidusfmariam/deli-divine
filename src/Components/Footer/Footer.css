@@ -12,8 +12,9 @@ footer{
     margin-bottom: 7rem;
 }
 .footer-logo{
-    width: 150px;
-    height: 90px;
+    width: 120px;
+    height: 60px;
+    overflow: visible;
 
 }
 .socials-icons{

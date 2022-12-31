@@ -1,0 +1,134 @@
+.about-us-wrapper{
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 7vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+.about-us-text{
+    height: 100%;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-us-text h1{
+    font-size: clamp(3rem, 4vw, 10rem);
+    width: 100%;
+}
+.about-us-text p{
+    font-size: clamp(1rem, 1.2vw, 4rem);
+    width: 100%;
+}
+.about-us-images{
+    width: 65vw;
+    position: relative;
+    height: 100%;
+    overflow-y: hidden ;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image{
+    position: absolute;
+    overflow-y: hidden;
+}
+.image-3{
+    width: clamp(170px, 15vw, 900px);
+    height: 50%;
+    bottom: 0;
+    right: 0;
+}
+.image-1{
+    width: clamp(400px, 30vw, 1500px);
+    height: 15%;
+    right: -5vw;
+    top: 15vh;
+}
+.image-2{
+    width: clamp(350px, 25vw, 1500px);
+    height: 50%;
+    left: 7vw;
+    top: 35vh;
+}
+
+@media screen and (max-width: 950px) {
+    .about-us-wrapper{
+        flex-direction: column;
+        overflow-y: hidden;
+        
+    } 
+    .about-us-text{
+        width: 100vw;
+        align-items: center;
+        padding: 0 5rem;
+    }
+    .about-us-images{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .image-1{
+        top: 0;
+    }
+    .image-2{
+        top: 5vh;
+    }
+    .image-3{
+        top: 15vh;
+        right: 20vw;
+    }
+}
+@media screen and (max-width: 750px){
+    .about-us-wrapper{
+        height: 190vh;
+        overflow-x: visible;
+    }
+    .about-us-text{
+        height: 60%;
+        padding: 6rem 2rem;
+        
+    }
+    .about-us-text h1{
+        margin-bottom: 0.7rem;
+    }
+    .about-us-text p{
+        margin-bottom: -3rem;
+        overflow-y: visible;
+    }
+    .image-1{
+        left: 0;
+        top: 0;
+    }
+    .image-2{
+        top: 25vh;
+        right: -49vw;
+    }
+    .image-3{
+        top: 88vh;
+        left: 10%;
+        transform: translateX(50%);
+        height: 30%;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 745px){
+    .about-us-text{
+        padding: 4rem 4rem;
+        height: 40%;
+    }
+    .image-1, .image-2{
+        width: 100vw;
+    }
+    .image-2{
+        height: 40%;
+    }
+    .image-3{
+        width: 50vw;
+        left: 0vw;
+    }
+}
