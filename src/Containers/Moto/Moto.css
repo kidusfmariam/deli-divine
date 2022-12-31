@@ -16,7 +16,7 @@
     margin: 2vh auto;
 }
 .moto-wrapper p{
-    font-size: clamp(1rem, 1.2vw, 3rem);
+    font-size: clamp(1rem, 1.4vw, 3rem);
     text-align: center;
     width: 80%;
     margin: 2vh auto;
