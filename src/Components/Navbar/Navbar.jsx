@@ -74,7 +74,7 @@ const Navbar = () => {
         </motion.div>
         </Link>
 
-
+        <Link to='/contact'>
         <motion.div 
         className='menu-item menu-item-4'
         initial={{opacity: 0, y:100}}
@@ -84,6 +84,7 @@ const Navbar = () => {
             <h1 className='menu-title'>CONTACT</h1>
             <img className='menu-img menu-img-4' src="/Assests/Navbar/contact.png" alt="contact" />
         </motion.div>
+        </Link>
         </motion.div>
     </motion.div>
     </>
