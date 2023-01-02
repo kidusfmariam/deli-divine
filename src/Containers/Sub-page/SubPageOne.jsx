@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import './SubPageOne.css'
-
+import { Link } from 'react-router-dom'
 const SubPageOne = () => {
   return (
     <>
@@ -23,7 +23,7 @@ const SubPageOne = () => {
       className='subpage-content-container'>
         <h2 className='subpage-title'>Fine <br />Dining</h2>
         <p className='subpage-content-paragraph'>Indulge your senses in the best cuisine the world has to offer. Make memories with your loved ones.  </p>
-        <button>Explore our menu</button>
+        <Link to="/menu"><button>Explore our menu</button></Link>
       </motion.div>
     </section>
 
@@ -45,7 +45,7 @@ const SubPageOne = () => {
         className='subpage-content-container-2'>
             <h1 className='subpage-title'>Serving with <br /> Passion</h1>
             <p className='subpage-content-paragraph'>We have been serving our customers for the past 7 years. We are dedicated to elevating your dining experience into new heights.  With a diverse cuisine and dedicated staff, our customers will get an experience of a lifetime every time they visit us.  </p>
-            <button>Learn more about us</button>
+            <Link to='/about'><button>Learn more about us</button></Link>
         </motion.div>
     </section>
     </>
