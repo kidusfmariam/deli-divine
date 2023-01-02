@@ -3,7 +3,10 @@ import './FoodCard.css'
 import {motion} from 'framer-motion'
 const FoodCard = ({name, price, image}) => {
   return (
-    <div className='food-card-wrapper'>
+    <motion.div 
+    whileHover={{scale: 1.1}}
+    transition={{duration: 1, ease: [0.23, 0.43, 0.13, 0.96]}}
+    className='food-card-wrapper'>
         <div className='food-img'>
         <img src={image} alt={name} />
         </div>
@@ -12,7 +15,7 @@ const FoodCard = ({name, price, image}) => {
             <p>{name}</p>
             <p>{price}</p>
         </div>
-    </div>
+    </motion.div>
   )
 }
 
