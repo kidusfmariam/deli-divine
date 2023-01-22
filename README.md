@@ -2,6 +2,10 @@
 Deli Divine is a modern restaurant that boasts an extensive menu of tantalizing drinks, including classic favorites like gin and tonics as well as craft beers, wines, and cocktails. There's something for everyone at Deli Divine! The inviting atmosphere draws locals who come to enjoy their one-of-a-kind creations while they relax in the cozy chairs or grab a bite to go.
 ## Live Site 
 [Live Website](https://deli-divine.netlify.app/)
+## Technology Used
+- ReactJS
+- CSS
+- Framer Motion
 ## Fonts Used
 - [Julius Sans One](https://fonts.google.com/specimen/Julius+Sans+One?query=Julius+Sans)
 - [Metal](https://fonts.google.com/specimen/Metal?query=Metal)
